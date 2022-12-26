@@ -1,0 +1,115 @@
+body {
+    background-color: hsl(160, 30%, 15%);
+    font-family:Arial, Helvetica, sans-serif;
+    color: hsl(170, 75%, 80%);
+    box-sizing: border-box;
+}
+
+.code {
+    color: hsl(65, 75%, 80%);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:hsl(40, 50%, 70%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    color:hsl(160, 30%, 15%);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color:hsl(160, 30%, 15%);
+    color:hsl(170, 75%, 80%);
+}
+
+.container {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.title {
+    background-image: url("./images/codebg.jpg");
+    height: 500px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.title h1 {
+    background-color: hsl(160, 30%, 15%);
+    position: absolute;
+    margin: 150px auto;
+    width: 100%;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    list-style-type: none;
+}
+
+.links li {
+    border: 6px solid;
+    border-color:hsl(40, 50%, 70%);
+    display: inline-block;
+    font-size: 40px;
+    color:hsl(170, 75%, 80%);
+    margin: 0 20px;
+    padding: 40px;
+}
+
+.links li a {
+    padding: 40px 80px;
+}
+
+.links li a:hover {
+    background-color:hsl(40, 50%, 70%);
+    color:hsl(160, 30%, 15%);
+}
+
+a {
+    text-decoration: none;
+    color:hsl(170, 75%, 80%);
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color:hsl(40, 50%, 70%);
+}
+
+th {
+    height: 50px;
+    background-color:hsl(40, 50%, 70%);
+    color:hsl(160, 30%, 15%);
+}
+
+footer {
+    text-align: center;
+}
