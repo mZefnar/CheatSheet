@@ -3,12 +3,14 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     color: hsl(170, 75%, 80%);
     box-sizing: border-box;
+    margin: 0px;
 }
 
-.code {
-    color: hsl(65, 75%, 80%);
-    font-family:'Courier New', Courier, monospace;
+.main-container {
+    margin-top: 45px;
 }
+
+/* Navbar styles */
 
 .navbar {
     overflow: hidden;
@@ -17,6 +19,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1;
+    left: 0;
 }
 
 .navbar a {
@@ -24,9 +27,13 @@ body {
     float: left;
     display: block;
     text-align: center;
-    padding: 15px 40px;
+    padding: 6px 12px;
+    margin: 3px;
     text-decoration: none;
     font-size: 20px;
+    border: 1px solid hsl(160, 30%, 15%);
+    border-radius: 8px;
+    box-shadow: 1px 1px hsl(158, 29%, 5%)
 }
 
 .navbar a:hover {
@@ -34,28 +41,18 @@ body {
     color:hsl(170, 75%, 80%);
 }
 
-.container {
-    padding: 20px;
-    margin-top: 30px;
+.navbar a:active {
+    background-color:hsl(160, 30%, 25%);
+    box-shadow: none;
 }
 
-.title {
-    background-image: url("./images/codebg.jpg");
-    height: 500px;
-    width: 100%;
-    position: relative;
-    text-align: center;
+/* Text styles */
+
+.code {
+    color: hsl(65, 75%, 80%);
+    font-family:'Courier New', Courier, monospace;
 }
 
-.title h1 {
-    background-color: hsl(160, 30%, 15%);
-    position: absolute;
-    margin: 150px auto;
-    width: 100%;
-    padding: 20px;
-    font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
-}
 
 h1 {
     text-align: center;
@@ -66,50 +63,9 @@ h2 {
     text-align: center;
 }
 
-.links {
-    text-align: center;
-    list-style-type: none;
-}
-
-.links li {
-    display: inline-block;
-    font-size: 40px;
-    color:hsl(170, 75%, 80%);
-    margin: 0 20px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-.links li a {
-    padding: 40px 80px;
-    border: 6px solid;
-    border-color:hsl(40, 50%, 70%);
-    border-radius: 20px;
-}
-
-.links li a:hover {
-    background-color:hsl(40, 50%, 70%);
-    color:hsl(160, 30%, 15%);
-}
-
 a {
     text-decoration: none;
     color:hsl(170, 75%, 80%);
-}
-
-table {
-    width: 100%;
-}
-
-table, th, td {
-    border: 1px solid;
-    border-color:hsl(40, 50%, 70%);
-}
-
-th {
-    height: 50px;
-    background-color:hsl(40, 50%, 70%);
-    color:hsl(160, 30%, 15%);
 }
 
 footer {
